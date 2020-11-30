@@ -1,3 +1,4 @@
+__version__ = 1.2
 __author__ = "GLDDRK"
 def main():
     print("En premier entre ta note, puis entre sur combien est ta note, ensuite le programme calculera ta note en note sur 20")

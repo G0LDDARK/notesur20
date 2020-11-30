@@ -1,3 +1,5 @@
+#version
+__version__ = 1.2
 #autheur
 __author__ = "GLDDRK"
 
