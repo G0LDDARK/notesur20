@@ -1,4 +1,4 @@
-__version__ = 1.2
+__version__ = 1.3
 __author__ = "GLDDRK"
 def main():
     print("En premier entre ta note, puis entre sur combien est ta note, ensuite le programme calculera ta note en note sur 20")
@@ -7,7 +7,11 @@ def main():
     # Калашников
     if note == "AUTHOR":
         if sur == "AUTHOR":
-            print("Je suis " + __author__ + " l'auteur de ce code python merci d'avoir demander qui je suis.")
+            print("Je suis " + __author__ + " l'auteur de ce code, python merci d'avoir demander qui je suis.")
+            exit()
+    if note == "VERSION":
+        if sur == "VERSION":
+            print("Mon autheur a dit que je suis en version " + str(__version__))
             exit()
     if note != float:
         print("Tu déconne john, " + str(note), + " n'est pas un nombre")

@@ -1,5 +1,5 @@
 #version
-__version__ = 1.2
+__version__ = 1.3
 #autheur
 __author__ = "GLDDRK"
 
@@ -19,6 +19,11 @@ def main():
     if note == "AUTHOR":
         if sur == "AUTHOR":
             print("Je suis " + __author__ + " l'auteur de ce code python merci d'avoir demander qui je suis.")
+            exit()
+    #si les deux champs sont remplis par "VESRION" alors le programme donnera sa vesrion
+    if note == "VERSION":
+        if sur == "VERSION":
+            print("Mon autheur a dit que je suis en version " + str(__version__))
             exit()
 
     #verification si les input sont des float
