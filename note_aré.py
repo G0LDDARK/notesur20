@@ -13,19 +13,20 @@ def main():
     sur = input("Sur combient de point: ")
 
     #petit easter-egg
+    # Калашников
     if note == "AUTHOR":
         if sur == "AUTHOR":
             print("Je suis " + __author__ + " l'auteur de ce code python merci d'avoir demander qui je suis.")
             exit()
 
     #verification si les input sont des float
-    if note or sur != float:
-
-        #explication que les input ne sont pas des chiffres
-        print("Tu déconne john, " + str(note), "/ " + str(sur) + " ne sont pas des chiffres")
-
-        #sortie du programme
+    if note != float:
+        print("Tu déconne john, " + str(note), + " n'est pas un nombre")
         exit()
+    if sur != float:
+        print("Tu déconne john, " + str(note), + " n'est pas un nombre")
+        exit()
+
     #calcul des input en note sur 20
     notesur20 = float(note) / float(sur) * 20
 
