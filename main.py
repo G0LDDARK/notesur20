@@ -1,5 +1,5 @@
 ﻿import os
-__version__ = str("1.9.2")
+__version__ = str("1.9.3")
 __author__ = str("GLDDRK")
 def main():
     os.system("clear||cls")

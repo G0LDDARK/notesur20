@@ -2,7 +2,7 @@
 import os
 
 #version
-__version__ = str("1.9.2")
+__version__ = str("1.9.3")
 
 #Autheur
 __author__ = str("GLDDRK")
